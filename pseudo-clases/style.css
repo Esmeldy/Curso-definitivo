@@ -8,7 +8,7 @@ body {
     padding: 10px;
     list-style: none;
     border-radius: 0 0 10px 10px;
-    background: linear-gradient(-25deg, white, rgb(247, 169, 169), white);
+    background: linear-gradient(to top, white, white, rgba(247, 169, 169, 0.5));
 
 }
 
@@ -19,24 +19,27 @@ body {
 }
 
 .main-nav-item a {
-    color: #464242;
+    color: #996969;
     text-decoration: none;
 }
 
-.main-nav-item a:hover {
+.main-nav-item:hover {
     color: #F1007F;
     animation-name: bounce;
-    animation-duration: 2s;
+    animation-duration: 1s;
 }
 @keyframes bounce {
     0% {
-        color: #000;
+        
+        transform: translateY(5px);
     }
     50% {
-        color: #13a4a4;
+        
+        transform: translateY(10px);
     }
     100% {
-        color: aqua;
+        
+        transform: translateY(5px);
     }
 }
 .main-nav-item a:active {
