@@ -1,0 +1,42 @@
+
+main {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: orange;
+    
+}
+section {
+    display: flex;
+    justify-content: space-between;
+}
+.main-fruit {
+    list-style: none;
+    margin: 0;
+    padding: 25px;
+    
+}
+.main-fruit-text {
+    text-align: center;
+    font-size: 35px;
+    color: green;
+}
+
+.main-fruit-content {
+    text-align: left;
+    text-transform: capitalize;
+    text-decoration: line-through;
+    padding-left: 15px;
+    margin: 0;
+}
+
+ .main-fruit .main-fruit-text {
+     background-image: url(/pics/apple.jpg);
+     height: 100px;
+     width: 250px;
+     background-size: cover;
+ }
