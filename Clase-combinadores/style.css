@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Spartan:wght@600&display=swap');
+
+.art {
+    text-align: center;
+    font-size: 2em;
+    border: red dashed 1px;
+    font-family: Maven pro, sans-serif;
+}
+
+h2 {
+    font-family: Spartan, serif;
+}
+h2 + p { /** Adjacent sibling, hermano o adyacente cercano. aplica a la etiqueta p cuya etiqueta h2 esté cerca, es decir, que sea su hermano**/
+    color: red;
+}
+
+h3 ~ p { /* Hermano general o General Sibling. modifica la etiqueta p cuyo hermano general sea un h3. Que estén en el mismo nivel o misma linea 
+    El combinador ~ separa dos selectores y selecciona el segundo elemento sólo si está precedido por el primero y ambos comparten un padre común.*/
+    color: pink;
+}
+
+div > p { /* Child: Modifica la etiqueta p cuyo padre directo es la etiqueta div. p es su hijo directo */
+    color: magenta;
+}
+
+div p { /* Descendiente: modifica la etiqueta o que esten dentro de una etiqueta div.*/
+    color: grey;
+}
+
+
+/* Elementos <a> con un atributo title */
+a[title] {
+    color: purple;
+  }
+  
+  /* Elementos <a> con un href que coincida con "https://example.org" */
+  a[href="https://example.org"] {
+    color: green;
+  }
+  
+  /* Elementos <a> con un href que contenga "example" */
+  a[href*="example"] {
+    font-size: 2em;
+  }
+  
+  /* Elementos <a> con un href que comience con "#" */
+  a[href^="#"] {
+    color: #001978;
+  }
+  
+  /* Elementos <a> con un href que termine en ".org" */
+  a[href$=".org"] {
+    font-style: italic;
+  }
+  
+  /* Elementos <a> cuyo atributo class contenga la palabra "logo" */
+  a[class~="logo"] {
+    padding: 2px;
+  }

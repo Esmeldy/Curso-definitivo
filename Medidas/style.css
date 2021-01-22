@@ -1,0 +1,13 @@
+.abso {
+    background-color: red;
+    width: 100%;
+    height: 60px;
+    font-size: 90%;
+}
+.abso p { font-size: 25px; } /* ésta es una mdedida Absoluta, porque el tamanaño de la fuente no cambia segun el el tamaño de la pantalla */
+
+
+.rel {
+    font-size: 1.5em; /* Hereda la medida de su padre directo, */
+
+}
