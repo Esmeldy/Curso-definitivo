@@ -7,7 +7,14 @@
 .abso p { font-size: 25px; } /* ésta es una mdedida Absoluta, porque el tamanaño de la fuente no cambia segun el el tamaño de la pantalla */
 
 
-.rel {
-    font-size: 1.5em; /* Hereda la medida de su padre directo, */
+.em {
+    font-size: 1.5em; /*  La unidad em se utiliza para hacer referencia al tamaño actual de la fuente que ha sido establecido en el navegador, que habitualmente es un valor aproximado de 16px. De esta forma, una cantidad de 1em sería este tamaño establecido por el usuario, mientras que una cantidad de 2em sería justo el doble y una cantidad de 0.5em sería justo la mitad.
+    es un acrónimo de Elemento, Hereda la medida de su padre directo y lo multiplica por la cantidad que se le ponga detrás. */
 
+}
+
+.em div {
+    font-size: 1.5em;
+    
+    
 }
