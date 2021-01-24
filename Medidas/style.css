@@ -18,3 +18,7 @@
     
     
 }
+
+.rem {/* La unidad de medida rem es muy similar a em, con la única diferencia de que no es escalable, esto quiere decir que no depende del elemento padre, sino del elemento raíz del documento, el elemento HTML. Rem significa «Root Em«, o sea, es un em basado en la raíz. */
+    font-size: 2rem;
+}

@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+main {
+    width: 100vw;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #ccFFFF, #FFCCCC);
+}
+
+section {
+    width: 80%;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #FFFFCC, #CCFFFF);
+    margin: 0 auto;
+    box-shadow: #ffffff 0px 2px 5px 1px;
+}
+
+section div {
+    text-align: center;
+    
+    font-size: 8rem;
+    margin-bottom: 100px;
+    color: #FFCCCC;
+    
+}
+section p {
+    font-size: 1.2rem;
+    text-align: left;
+    color: #555353;
+}
