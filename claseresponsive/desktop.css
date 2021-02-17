@@ -1,0 +1,17 @@
+.container {
+    margin: 0 auto;
+}
+.c1, .c5 {
+    height: 5vh;
+    width: 100vw;
+}
+
+.c2 {
+    width: 70%;
+}
+.c3 {
+    width: 30%;
+}
+.c4 {
+    width: 100vw;
+}
